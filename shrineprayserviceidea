@@ -1,0 +1,31 @@
+【shrineprayserviceのidea】
+----------------------------------------
+【崇敬者管理】
+DBtable（supporters）
+id/name/name_kana/birthday/postal_code/prefecture/address/gender/phone/email/city
+support_type（崇敬会等）/area_type（県内・市内等）/memo/
+first_pray_date/last_pray_date/create_at/update_at/pray_type（願意）
+
+機能
+・main.htmlに20～30件表示
+・検索機能（重複検索可能なmain.html）
+  id/name/name/name_kana/birthday/postal_code/gender/support_type/pray_type
+  memo/phone
+・印刷画面出力（print.html）
+・チェック機能
+  メール一斉送信
+  csv出力
+・新規作成機能（form.html）
+----------------------------------------
+【出欠管理】
+main.html
+  案内一覧取得
+
+----------------------------------------
+【社入管理】
+DBtable(daily_report)
+create_date_time/name/festival/visitor/pray_count/daily_pray_account/daily_shuin_account
+
+----------------------------------------
+【入金に纏わる情報整理(payments)】
+
